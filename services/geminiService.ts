@@ -2,7 +2,7 @@
 import { GoogleGenAI, Type } from "@google/genai";
 import { CharacterProfile } from "../types";
 
-const ai = new GoogleGenAI({ apiKey: process.env.API_KEY });
+const ai = new GoogleGenAI({ apiKey: "AIzaSyBGai0Z6a4w5fKn9L6ONTqKkqx9VAckaVo" });
 
 /**
  * Step 1: Just identify the list of important characters.
